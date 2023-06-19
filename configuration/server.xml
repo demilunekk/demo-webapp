@@ -137,7 +137,7 @@
         <!-- ##ACCESS_LOG_VALVE## -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="/opt/webserver"
                prefix="catalina." suffix="out" rotatable="false" requestAttributesEnabled="true"
-               pattern="%h %l %u %t %{X-Forwarded-Host}i &quot;%r&quot; %s %b" />"
+               pattern="%h %l %u %t %{X-Forwarded-Host}i &quot;%r&quot; %s %b" />
 
         <Valve className="org.apache.catalina.valves.ErrorReportValve" showReport="false"
                showServerInfo="false" />
